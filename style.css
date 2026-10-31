@@ -1,0 +1,13 @@
+:root{--paper:#fdfcf6;--ink:#24366e;--muted:#5a6a94;--rule:#c9d8f0;--red:#e2464f;--hl:#fff27a}
+*{box-sizing:border-box}
+body{margin:0;background-color:var(--paper);background-image:linear-gradient(90deg,transparent 30px,rgba(232,98,104,.6) 30px 32px,transparent 32px),repeating-linear-gradient(transparent 0 27px,var(--rule) 27px 28px);color:var(--ink);font:17px/28px "Patrick Hand","Segoe Print",system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:28px 20px 60px 52px}
+header{display:flex;align-items:center;gap:16px;margin-bottom:12px}
+header img{width:72px;height:72px;border-radius:18px;border:2px solid var(--ink)}
+h1{font-family:"Caveat","Segoe Print",cursive;font-size:48px;line-height:56px;margin:0}
+h1 span{background:linear-gradient(transparent 55%,var(--hl) 55% 92%,transparent 92%)}
+h2{font-family:"Caveat","Segoe Print",cursive;font-size:30px;line-height:42px;margin:28px 0 0}
+p,ul{margin:0 0 14px}
+a{color:var(--red)}
+.muted{color:var(--muted)}
+nav{margin-top:36px;display:flex;gap:18px}
